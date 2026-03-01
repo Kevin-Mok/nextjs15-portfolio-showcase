@@ -327,7 +327,7 @@ const redHatSupportExperience: WorkExperience = {
   company: 'Red Hat',
   title: 'Technical Support Engineer Intern (Tier 1/2)',
   languages: ['Ticketing/Triage', 'De-escalation', 'Knowledge Base Writing'],
-  date: 'Aug 2022 — Aug 2024',
+  date: 'Jan 2023 — Aug 2024',
   bullets: [
     '<strong>Authored a 500+ line comprehensive training manual</strong> and onboarding guide that <strong>reduced the need for manual troubleshooting support by 60%</strong>, enabling new users to resolve issues independently.',
     '<strong>Resolved critical system issues for Fortune 500 clients, improving overall service reliability by 40%</strong> and <strong>preventing recurring technical glitches</strong> for high-priority accounts through proactive root-cause analysis.',
@@ -350,7 +350,7 @@ const digitalMarketplaceExperience: WorkExperience = {
     '<strong>Built and scaled a peer-to-peer digital goods business</strong>, generating <strong>$50,000+ in gross merchandise value (GMV)</strong>.',
     '<strong>Managed escrow for transactions over $5,000</strong>, earning <strong>1000+ verified customer vouches</strong> with a <strong>0% unresolved dispute rate</strong>.',
     '<strong>Ran end-to-end marketplace operations</strong>, including pricing and payment risk controls, <strong>reducing fulfillment latency by 30%</strong> through the automation of rapid digital delivery systems.',
-    '<strong>Increased profit margins by 15%</strong> through fair-value pricing and product bundles that filtered low-intent leads.',
+    '<strong>Increased profit margins by 25%</strong> through fair-value pricing and product bundles that filtered low-intent leads.',
     '<strong>Implemented middleman verification checks</strong>, reducing fraud exposure and bringing <strong>chargeback risk close to zero</strong>.',
     '<strong>Standardized P&amp;L tracking</strong> and payment records, <strong>achieving 100% data reconciliation</strong> between fulfillment logs and bank statements.',
   ],
@@ -519,7 +519,7 @@ const defaultSectionTitles: ResumeSectionTitles = {
   education: 'Education',
 };
 
-export const DEFAULT_RESUME_VARIANT_ID: ResumeVariantId = 'web-dev';
+export const DEFAULT_RESUME_VARIANT_ID: ResumeVariantId = 'aws-web-dev';
 
 export const resumeVariants: ResumeVariantDefinition[] = [
   {
@@ -928,7 +928,7 @@ export const resumeVariants: ResumeVariantDefinition[] = [
     sectionTitles: {
       ...defaultSectionTitles,
       projects: 'Sales Projects',
-      experience: 'Customer Support Work Experience',
+      experience: 'Work Experience',
     },
     skillsHtmlLines: [
       '<strong>Sales &amp; Business Development:</strong> Lead qualification, prospecting, sales negotiation, closing, profit margin analysis, relationship building with high-value/Fortune 500 clients and retention',
@@ -948,18 +948,18 @@ export const resumeVariants: ResumeVariantDefinition[] = [
           ...digitalMarketplaceExperience,
           bullets: [
             digitalMarketplaceExperience.bullets[0],
-            digitalMarketplaceExperience.bullets[1],
             digitalMarketplaceExperience.bullets[2],
             digitalMarketplaceExperience.bullets[3],
+            digitalMarketplaceExperience.bullets[1],
             digitalMarketplaceExperience.bullets[4],
           ],
         },
         {
           ...redHatSupportExperience,
           bullets: [
+            redHatSupportExperience.bullets[1],
             redHatSupportExperience.bullets[4],
             redHatSupportExperience.bullets[2],
-            redHatSupportExperience.bullets[1],
             redHatSupportExperience.bullets[0],
           ],
         },
@@ -994,19 +994,19 @@ export const resumeVariants: ResumeVariantDefinition[] = [
         {
           ...redHatSupportExperience,
           bullets: [
+            redHatSupportExperience.bullets[1],
             redHatSupportExperience.bullets[4],
             redHatSupportExperience.bullets[2],
-            redHatSupportExperience.bullets[0],
-            redHatSupportExperience.bullets[1],
             redHatSupportExperience.bullets[3],
+            redHatSupportExperience.bullets[0],
           ],
         },
         {
           ...digitalMarketplaceExperience,
           bullets: [
             digitalMarketplaceExperience.bullets[0],
-            digitalMarketplaceExperience.bullets[1],
             digitalMarketplaceExperience.bullets[2],
+            digitalMarketplaceExperience.bullets[1],
             digitalMarketplaceExperience.bullets[4],
           ],
         },

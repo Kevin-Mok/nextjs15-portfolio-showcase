@@ -13,7 +13,8 @@ import { resolveResumeVariantId } from '@/lib/resume-data';
 
 export const metadata: Metadata = {
   title: 'Resume - Kevin Mok | Software Engineer',
-  description: 'Software Engineer specializing in TypeScript, React, Node.js, Python, and cloud infrastructure. Previously at Red Hat. University of Toronto CS graduate.',
+  description:
+    'Ex-Cloud Engineer Intern @ Red Hat. Full-stack + cloud engineer (TypeScript/React, AWS/Kubernetes). Linux/FOSS advocate. CS @ UofT.',
   keywords: [
     'Kevin Mok',
     'Resume',
@@ -45,7 +46,8 @@ export const metadata: Metadata = {
   twitter: {
     card: 'summary_large_image',
     title: 'Kevin Mok - Software Engineer Resume',
-    description: 'TypeScript, React, Node.js, Python | Ex-Red Hat | UofT CS',
+    description:
+      'Ex-Cloud Engineer Intern @ Red Hat. Full-stack + cloud engineer (TypeScript/React, AWS/Kubernetes). Linux/FOSS advocate. CS @ UofT.',
     images: ['/opengraph-image.png'],
   },
 };

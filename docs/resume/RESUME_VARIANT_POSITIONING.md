@@ -25,7 +25,9 @@ Canonical active variants: 10
 
 ## Notes
 
-- Default variant in the app is `web-dev`.
+- Default variant in the app is `aws-web-dev` (best broad fit for web dev + devops/cloud + general SWE targeting).
+- Recruiter one-liner (HR-safe, short format):
+  `Ex-Cloud Engineer Intern @ Red Hat. Full-stack + cloud engineer (TypeScript/React, AWS/Kubernetes). Linux/FOSS advocate. CS @ UofT.`
 - `sales` and `call-centre` share similar support language but differ in emphasis:
   - `sales`: sales/owner-operator outcomes first.
   - `call-centre`: support workflow and service operations first.
