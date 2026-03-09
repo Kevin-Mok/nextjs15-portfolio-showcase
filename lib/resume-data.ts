@@ -858,13 +858,13 @@ export const resumeVariants: ResumeVariantDefinition[] = [
             redHatSupportExperience.bullets[3],
             redHatSupportExperience.bullets[2],
             redHatSupportExperience.bullets[0],
+            redHatSupportExperience.bullets[5],
           ],
         },
         {
           ...digitalMarketplaceExperience,
           bullets: [
             digitalMarketplaceExperience.bullets[1],
-            digitalMarketplaceExperience.bullets[2],
           ],
         },
       ],
