@@ -58,6 +58,7 @@ public/images/*.png
 public/images/*.jpg
 public/images/*.sh
 public/images/originals/
+/public/videos/
 /public/resume/*.pdf
 
 docs/PERF-OPTIMIZATION-SPEC.md
@@ -75,3 +76,6 @@ scripts/*
 
 articles/
 blog-post-source
+
+# Local recruiter prompt scratch file
+docs/prompts/RECRUITER_TYPESCRIPT_DYNAMIC_SITE_PROMPT.md
