@@ -4,6 +4,8 @@ import { getImageUrl } from '@/lib/image-paths';
 
 const envOgImage = process.env.NEXT_PUBLIC_OG_IMAGE;
 const hasCustomOgImage = Boolean(envOgImage && envOgImage !== 'YOUR_OPEN_GRAPH_IMAGE');
+const trackedHomepageBioIntro =
+  "Full-stack engineer open to work. I build frontend-heavy full-stack products that launch fast, load fast, and stay reliable in production with TypeScript, React, Next.js, Node.js, and cloud infrastructure. Check out my resume on this site or hire me on Upwork.";
 
 // Main portfolio configuration
 // Replace values with your own information
@@ -32,9 +34,8 @@ export const portfolioConfig: PortfolioConfig = {
       // Detection variant disabled - only showing main profile photo
     },
     bio: {
-      // Structured bio for parallax sections (minimal version)
-      intro: process.env.NEXT_PUBLIC_BIO_INTRO ||
-        "Full-stack engineer open to work. I build frontend-heavy full-stack products that launch fast, load fast, and stay reliable in production with TypeScript, React, Next.js, Node.js, and cloud infrastructure. Check out my resume on this site or hire me on Upwork.",
+      // Keep the homepage lead copy tracked in git so VPS deploys stay in sync.
+      intro: trackedHomepageBioIntro,
 
       leadership: process.env.NEXT_PUBLIC_BIO_LEADERSHIP ||
         "Your professional background and expertise. Highlight key accomplishments and areas of focus.",
@@ -44,8 +45,7 @@ export const portfolioConfig: PortfolioConfig = {
         "What you enjoy outside of work.",
 
       // Legacy fields for compatibility
-      short: process.env.NEXT_PUBLIC_BIO_SHORT ||
-        "Full-stack engineer open to work. I build frontend-heavy full-stack products that launch fast, load fast, and stay reliable in production with TypeScript, React, Next.js, Node.js, and cloud infrastructure. Check out my resume on this site or hire me on Upwork.",
+      short: trackedHomepageBioIntro,
 
       long: process.env.NEXT_PUBLIC_BIO_LONG ||
         "A more detailed bio that provides context about your professional journey, key projects, and the impact of your work.",
