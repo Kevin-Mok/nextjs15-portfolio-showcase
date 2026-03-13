@@ -1,14 +1,5 @@
-# robots.txt for kmok.ai
-# Cloudflare manages User-agent rules above this line via Scrape Shield
-# Custom path blocks below
+# robots.txt for kevin-mok.com
+User-agent: *
+Allow: /
 
-# Disallow Next.js internals and API routes
-Disallow: /_next/
-Disallow: /api/
-
-# Disallow removed standalone pages (use tile system instead)
-Disallow: /about
-Disallow: /contact
-
-# Sitemap for better indexing
-Sitemap: https://kmok.ai/sitemap.xml
+Sitemap: https://kevin-mok.com/sitemap.xml
